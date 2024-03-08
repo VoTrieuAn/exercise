@@ -1,0 +1,17 @@
+.form {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #99CDFF;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}

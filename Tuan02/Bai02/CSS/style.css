@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Đảm bảo border không thay đổi kích thước */
+    box-sizing: border-box; 
+}
+
+/* Main */
+
+#main {
+    width: 950px;
+    height: 750px;
+    margin: 80px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #7D797E;
+}
+
+/* End main */
+
+/* Header */
+#main__header {
+    height: 120px;
+    background-image: url(../IMAGE/background.png);
+
+}
+
+.main__header--mod {
+    list-style: none;
+}
+
+.main__header--mod li {
+    display: inline-block;
+    /* Căn theo chiều dọc */
+    vertical-align: middle;
+}
+
+.main__header--mod li img {
+    width: 100px;
+}
+
+.main__header--mod li p,
+.main__header--mod li h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main__header--mod li p {
+    font-weight: bold;
+}
+
+/* End header */
+
+/* Nav */
+#main__nav {
+    height: 40px;
+    background-color: #B0AFAB;
+}
+
+.main__nav--mod {
+    list-style: none;
+}
+
+.main__nav--mod li {
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.main__nav--mod li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+ 
+.main__nav--mod li:first-child a {
+    color: black;
+}
+ 
+/* End Nav */
+
+/* Content section */
+#main__content__section {
+    width: 70%;
+    height: 550px;
+    float: left;
+}
+
+.content__section__left {
+    width: 50%;
+    height: 550px;
+    float: left;
+}
+
+.content__section__left--mod {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 28px;    
+}
+
+.content__section__left--mod li {
+    border: 1px solid #eeeeee;
+    margin-bottom: 50px;
+}
+
+.content__section__left--mod li img {
+    width: 280px;
+    height: auto;
+    padding: 5px;
+}
+
+.content__section__left--mod li p {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.content__section__right{
+    width: 50%;
+    height: 550px;
+    float: right;
+}
+
+.content__section__right--mod {
+    margin-top: 36px;
+    list-style: none;
+}
+
+.content__section__right--mod li {
+    margin-bottom: 160px;
+}
+
+.content__section__right--mod li p {
+    margin-top: 20px;
+    color: #7D797E;
+} 
+
+
+
+.content__section__right--mod li h2 {
+    font-weight: normal;
+    color: #7D797E;
+}
+
+.content__section__right--mod li h2:last-of-type {
+    font-size: 20px;
+    color: #D9818F;
+}
+
+/* End content section */
+
+/* Content aside */
+#main__content__aside {
+    width: 30%;
+    border-left: 1px solid #eeeeee;
+    height: 550px;
+    float: right;
+
+
+}
+.main__content__aside--mod,
+.main__content__aside__contact-detail--mod {
+    margin-top: 36px;
+    margin-left: 20px;
+
+}
+
+.main__content__aside--mod h2,
+.main__content__aside__contact-detail--mod h2
+ {
+    font-weight: normal;
+    color: #D9818F;
+}
+
+.main__content__aside--mod a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 20px;
+    color: #D9818F;
+}
+
+.main__content__aside__contact-detail--mod {
+    margin-top: 50px;
+}
+
+.main__content__aside__contact-detail--mod p {
+    margin-top: 30px;
+}
+
+/* End content aside */
+
+/* Footer */
+#main__footer {
+    height: 25px;
+    clear: both;
+    background-color: #B0AFAB;
+}
+ 
+#main__footer p {
+    font-size: 13px;
+    padding: 7px 0px 0px 20px;
+    font-weight: bold;
+    color: white;
+}
+/* End footer */

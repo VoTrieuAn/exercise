@@ -1,0 +1,11 @@
+table, th, td {
+    border: 2px solid #7D027D;
+}
+
+td {
+    vertical-align: top;
+}
+
+tr>th, tr>td:first-child {
+    font-weight: bold;
+}

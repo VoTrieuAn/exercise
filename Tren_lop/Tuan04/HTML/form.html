@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form thông tin sinh viên</title>
+    <style>
+        #container{
+            width: 50%;
+            margin: auto;
+            background-color: beige;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="">
+            <table width = "80%" align="center" style="height: 150px;">
+                <caption>THÔNG TIN SINH VIÊN</caption>
+                <tr>
+                    <td>
+                        Họ tên
+                    </td>
+                    <td>
+                        <input type="text" id = "ho-ten">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Năm sinh</td>
+                    <td>
+                        <select name="" id="nam-sinh">
+                        <script>
+                            for(var i = 2015; i <= 2030; i++) {
+                                document.write('<option value="' + i + '">' + i + '</option>');
+                            }
+                        
+                        </script>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <input type="text" id="dia-chi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td>
+                        <input type="text" placeholder="Nhập vào số điện thoại: " id="dien-thoai">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Thông tin sinh viên" onclick="information()">
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>
+        <h3>Thông tin đăng ký</h3>
+        <table>
+            <tr>
+                <td>Họ tên: </td>
+                <td id="ht"></td>
+            </tr>
+            <tr>
+                <td>Năm sinh: </td>
+                <td id="ns"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ: </td>
+                <td id="dc"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại: </td>
+                <td id="dt"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="../JS/script.js"></script>
+
+</body>
+</html>

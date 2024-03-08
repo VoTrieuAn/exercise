@@ -1,0 +1,10 @@
+.title, th {
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    width: 50px;
+}
+
+

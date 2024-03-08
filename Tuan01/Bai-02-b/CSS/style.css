@@ -1,0 +1,18 @@
+div {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 1020px;
+    margin: 0 auto;
+}
+  
+img {
+    max-width: 100%;
+}
+
+.page-title, .intro-content, .img-dessertweb {
+    margin-top: 50px;
+}
+
+.intro-content {
+    font-size: 17.5px;
+}

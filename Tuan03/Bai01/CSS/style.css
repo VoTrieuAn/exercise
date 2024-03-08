@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: 900px;
+    background-color: #6FC9EC;
+}
+
+#main__header {
+    height: 80px;
+    border-bottom: 10px dotted white;
+}
+
+#main__header ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+#main__header li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#main__content {
+    height: 700px;
+}
+
+#main__content__section {
+    width: 45%;
+    height: 700px;
+    float: left;
+}
+
+#main__content__section h1,
+#content__section__table {
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+#main__content__section h1 {
+    font-size: 36px;
+}
+
+table {
+    width: 100%;
+}
+
+
+select {
+    width: 20%;
+    height: 28px;
+    border: 1px solid#040AEF;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 28px;
+    border: 1px solid#040AEF;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid#040AEF;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    border: 1px dashed #040AEF;
+    border-radius: 5px;
+}
+
+#content__section__table table,
+#main__content__section p {
+    font-size: 22px;
+}
+
+#content__section__table table {
+    display: flex;
+    justify-content: center;
+}
+
+#content__section__table table td {
+    margin-top: 10px;
+}
+
+.table__table-data {
+    padding-left: 120px;
+}
+
+#main__content__aside {
+    width: 55%;
+    height: 700px;
+    float: right;
+}
+
+
+#main__content__aside img {
+    width: 80%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+#main__content__aside p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #040AEF;
+    margin-top: 36px;
+    margin-left: 48px;
+}
+
+#main__content__aside p .sub-text {
+    font-size: 24px;
+}
+
+#main__content__aside p .sub-text-shadow {
+    text-shadow: 4px 4px 1px #040AEF
+}
+
+#main__footer {
+    height: 120px;
+    border-top: 10px dotted white;
+    clear: both;
+}
+
+#main__footer p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}

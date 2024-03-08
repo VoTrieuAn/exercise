@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="form">
+        <!-- Có thể sử dụng center để căn giữa ảnh -->
+        <div class="img"><img src="../IMAGE/Jackson.gif" alt=""></div>
+        <h1>Registration Form</h1>
+        <form action="">
+            <table>
+                <thead>
+                    <caption>Registration your Jackson Electronics product here</caption>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>First Name:</td>
+                        <td colspan="2">
+                            <input type="text" size="15">
+                            Last Name: 
+                            <input type="text" size="15">    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address #1:</td>
+                        <td colspan="2"><input type="text" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Address #2:</td>
+                        <td colspan="2"><input type="text" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td colspan="2">
+                            <input type="text">
+                            State:
+                            <input type="text" size="3">
+                            Zip:
+                            <input type="text" size="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td colspan="2">
+                            <input type="text" value="United States">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Product:</td>
+                        <td colspan="2">
+                            <select name="product" id="">
+                                <option>ScanMaster</option>
+                                <option>ScanMaster II</option>
+                                <option>ScanMaster III</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date Purchased</td>
+                        <td colspan="2"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Serial#:</td>
+                        <td colspan="2">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">User for</td>
+                        <td valign="top">
+                            <input type="radio" name="use" value="home"> Home
+                            <br>
+                            <input type="radio" name="use" value="business"> Business
+                            <br>
+                            <input type="radio" name="use" value="government"> Government
+                        </td>
+                        <td valign="top">
+                            <input type="radio" name="use" value="educational-institution"> Educational Institution
+                            <br>
+                            <input type="radio" name="use" value="other"> Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">System (check all that apply):</td>
+                        <td valign="top">
+                            <input type="checkbox" name="window-98"> Windows 95/98/NT
+                            <br>
+                            <input type="checkbox" name="window-dos"> Windows 3.x/DOS
+                            <br>
+                            <input type="checkbox" name="mac"> Macintosh
+                        </td>
+                        <td valign="top">
+                            <input type="checkbox" name="unix"> UNIX
+                            <br>
+                            <input type="checkbox" name="otheros"> Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Comment?:</td>
+                        <td colspan="2">
+                            <textarea name="comments" id="" cols="50" rows="5" wrap="VIRTUAL"></textarea>
+                        </td>
+                    </tr>
+    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <input type="submit" value="Click to register">
+                            <input type="reset" value="Click to cancel">
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+.slide .inner-slide{
+    width: 50px;
+    height: 50px;
+}
+
+.slide .inner-slide img {
+    width: 100px;
+    height: 50px;
+}
+
+.slide .inner-slide-main img{
+    width: 700px;
+    height: 400px;
+}
+
+.slide .btn-home-page {
+    margin-right: 30px;
+}
+
+.slide p {
+    margin-left: 30px;
+}
+
+.slide {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.home {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+i {
+    color: #944B1E;
+}
+
+.text-color {
+    color: #944B1E;
+}

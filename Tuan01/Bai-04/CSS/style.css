@@ -1,0 +1,35 @@
+.home {
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.home-page {
+    border: 1px solid #000000;
+    padding: 5px;
+    width:1410px;
+    margin: 0 auto;
+}
+
+.member-page {
+    border: 1px solid #5b9bd4;
+    padding: 5px;
+    width:1300px;
+    margin: auto;
+}
+
+.classes-page {
+    border: 1px solid #5b9bd4;
+    padding: 5px;
+    width: 1000px;
+    margin: auto;
+}
+
+.content {
+    margin: 0;
+}
+
+span {
+    margin: 0 10px 0 10px;
+}

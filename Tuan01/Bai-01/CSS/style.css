@@ -1,0 +1,12 @@
+.menu-1, .menu-2 {
+    margin-bottom: 20px;
+    position: relative;
+    padding-right: 10px;
+  }
+
+.menu-1::after, .menu-2::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    color: #919090;
+  }

@@ -1,0 +1,60 @@
+#container {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+header {
+    height: 150px;
+    background-image: url(../IMAGE/Picture1.png);
+}
+
+nav {
+    height: 50px;
+    background-color: burlywood;
+}
+
+section {
+    width: 75%;
+    background-color: aqua;
+    height: 500px;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    background-color: aquamarine;
+    height: 500px;
+    float: right;
+}
+footer {
+    height: 100px;
+    clear: both;
+    background-color: burlywood;
+}
+
+#left {
+    width: 25%;
+    height: 500px;
+    background-color: brown;
+    float: left;
+}
+
+#right {
+    width: 75%;
+    height: 500px;
+    background-color: chartreuse;
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+}
