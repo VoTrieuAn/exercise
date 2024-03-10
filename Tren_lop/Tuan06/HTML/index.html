@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-info">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">Logo</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#idnavbar">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="idnavbar">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Product 1</a></li>
+                                <li><a href="" class="dropdown-item">Product 2</a></li>
+                                <li><a href="" class="dropdown-item">Product 3</a></li>
+                                <li><a href="" class="dropdown-item">Product 4</a></li>
+                                <li><a href="" class="dropdown-item">Product 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#modalContent">My modal</button>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="modalContent">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Form đăng ký</h3>
+                        <!-- data-bs-dismiss="modal": Tạo nút X đóng -->
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row g-2">
+                                <div class="col-6 mb-3">
+                                    <div class="mb-3">
+                                        <label for="username">Username*</label>
+                                        <input type="text" name="username" class="form-control" required>
+                                        <div class="valid-feedback">Look good!</div>
+                                        <div class="invalid-feedback">Please choose username</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email">E-mail*</label>
+                                        <input type="email" name="email" class="form-control" required>
+                                        <div class="valid-feedback">Look good!</div>
+                                        <div class="invalid-feedback">Please choose a Email</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password">Password*</label>
+                                        <input type="password" name="password" class="form-control">
+                                        <div class="valid-feedback">Look good!</div>
+                                        <div class="invalid-feedback">Please choose Comany</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="full-name">Full Name</label>
+                                        <input type="text" name="full-name" class="form-control">
+                                        <div class="valid-feedback">Look good!</div>
+                                        <div class="invalid-feedback">Please choose Full Name</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Gender*</p>
+                                        <label for="male">Male</label>
+                                        <input type="radio" name="gender" class="form-check-input" value="male" id="male">
+                                    </div>
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" class="form-check-input" value="female" id="female">
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="company-name">Company name*</label>
+                                        <input type="text" name="company-name" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="category">Category*</label>
+                                        <input type="text" name="category" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+
+                                        <label for="contact-number">Contact number*</label>
+                                        <input type="number" name="contact-number" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="your-location">Your location</label>
+                                        <input type="text" name="your-location" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" name="check" id="" class="form-check-input">
+                                        <label for="check">Agree with the terms and conditions</label>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <input type="submit" class="btn btn-primary" value="Submit"></input>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
