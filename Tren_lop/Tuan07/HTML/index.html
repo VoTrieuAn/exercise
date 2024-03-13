@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <title>Tuần 07 | Võ Triều An</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="mb-3">
+            <form action="" onsubmit="return validationForm()">
+                <div class="row mb-3">
+                    <label for="inputUsername" class="col-sm-2 col-form-label">Username:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" name="username" id="inputUsername">
+                      <span id="errName" style="color: red;"></span>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Email:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" name="email" id="inputEmail">
+                      <span id="errEmail" style="color: red;"></span>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputNumber" class="col-sm-2 col-form-label">Phone number:</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control" name="phone-number" id="inputPhoneNumber">
+                      <span id="errPhone" style="color: red;"></span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" class="btn btn-primary" value="Submit">
+                    <input type="reset" class="btn btn-primary" val ue="Reset">
+                  </div>
+                </form>
+        </div>
+    </div>
+    <script src="../JS/check-input.js"></script>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
