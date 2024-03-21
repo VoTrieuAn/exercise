@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 960px;
+    min-height: 500px;
+    margin: 0px auto;
+    border: 1px solid #000;
+}
+
+.nav {
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav .nav-item {
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+.nav .nav-item a {
+    line-height: 54px;
+    padding: 0px 28px;
+    font-size: 18px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.nav .nav-img {
+    width: 25%;
+}
+
+.nav .nav-img img {
+    width: 100%;
+}
+
+.nav input {
+    height: 28px;
+}
+
+.form-search {
+    width: 30%;
+}
+
+.form-search input[type=submit] {
+    width: 30%;
+    border-radius: 16px;
+}
+
+.form-search input[type=text] {
+    width: 60%;
+    border-radius: 16px;
+}
+
+.header {
+    min-height: 280px;
+    background-image: url(../IMAGE/baner4.png);
+    display: flex;
+    align-items: flex-end;
+}
+
+.header .title {
+    background-color: #9F4000;
+    width: 100%;
+    height: 24px;
+}
+
+.header .title h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.content {
+    min-height: 500px;
+}
+
+.content-header {
+    margin-top: 2px;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-header .item-img {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+    object-fit: 1;
+}
+
+.content-header img {
+    height: 124px;
+    border-radius: 16px;
+}
+
+.content-header .content-item {
+    width: 30%;
+    background-color: #DAE4D9;
+    flex: 1;
+}
+
+.content-header .content-item:nth-child(2) {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.content-header .content-s,
+.content-header .title {
+    text-align: center;
+}
+
+.content-header .title {
+    height: 24px;
+    background-color: #E4B0AC;
+    color: #9F4000;
+    font-weight: bold;
+}
+
+.content-main {
+    display: flex;
+    min-height: 400px;
+}
+
+.aside,
+.section {
+    flex-basis: 50%;
+}
+
+.section {
+    background-color: #D3F7F7;
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+.section h2{
+    text-shadow: 0px 0px 3px blue;
+    margin-bottom: 12px;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 64px;
+    padding: 8px;
+    border-bottom: 1px solid #9F4000;
+}
+
+.section-content .content-img {
+    display: flex;
+    align-items: center;
+}
+
+
+.content-img img {
+    height: 48px;
+    border-radius: 18px;
+    margin-right: 6px;
+}
+
+.aside {
+    background-color: #F9ECDB;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.aside h2 {
+    text-shadow: 0px 0px 3px blue;
+}
+
+.form-control {
+    padding: 18px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.form-group {
+    margin-top: 24px;
+}
+
+.form-texarea,
+.form-input {
+    width: 100%;
+
+}
+
+.form-input {
+    min-height: 32px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.form-texarea {
+    height: 64px;
+    border: 2px solid #000;
+}
+
+.form-group-2 {
+    display: flex;
+} 
+
+.form-group-2 .form-input:last-child {
+    margin-left: 24px;
+}
+
+.form-group-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-sub .form-button:last-child {
+    margin-left: 8px;
+    background-color: #E884A6;
+}
+
+.form-group-sub .form-button:first-child {
+    background-color: #8C8CE6;
+}
+
+.form-button {
+    width: 25%;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.footer {
+    height: 116px;
+    background-color: #9F4000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-content {
+    display: flex;
+}
+
+.footer .footer-content p {
+    min-width: 124px;
+    color: white;
+}
+
+.footer .footer-content p:last-child {
+    margin-left: 48px; /* Tạo khoảng cách giữa các phần tử */
+}
