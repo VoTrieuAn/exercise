@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .btn {
+            border: 1px solid #000;
+        }
+        img {
+            object-fit: cover;
+            width: 20%;
+            height: 128px;
+        }
+        
+        .highlight{
+            background: yellow;
+        }
+
+        * { 
+            margin: 10px;
+        }
+        .frame { 
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box-img">
+        <img src="../IMAGE/img1.jpg" alt="" id="idhimg">
+    </div>
+    <div class="btn btn-primary" id="btnplay">
+        Click me
+    </div>
+    <div class="btn btn-danger" id="btnstop">
+        Stop
+    </div>
+
+    <p>This is paragraph</p>
+    <div id="inrDiv">
+        <p>This is thrid paragraph.</p>
+    </div>
+    <div>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Thirth</li>
+        </ul>
+    </div>
+
+    <h1>Hello World</h1>
+    <p>This is a <em>simple paragraph</em>.</p>
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+    </ul>
+
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            var time;
+            function play() {
+                let arr = new Array();
+                arr[0] = '../IMAGE/img3.jpg'
+                arr[1] = '../IMAGE/img7.jpg'
+                arr[2] = '../IMAGE/img10.jpg'
+                arr[3] = '../IMAGE/img7.jpg'
+                let i = Math.round(Math.random() * 4);
+                $('#idhimg').attr('src', arr[i]);
+                console.log(i);
+                time = setTimeout(play, 1000);
+            }
+            $('#btnplay').click(() => {
+                play();
+            });
+
+            function stop() {
+                clearTimeout(time);
+            }
+
+            $('#btnstop').click(() => {
+                stop();
+            });
+            $("li").parent().addClass("highlight");
+        });
+    </script>
+</body>
+</html>
